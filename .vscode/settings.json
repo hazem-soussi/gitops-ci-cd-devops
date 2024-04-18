@@ -1,0 +1,21 @@
+{
+    " jenkins-runner.jobs" : {
+    "test-1": {
+            "isDefault": true,
+            "runWith": "jenkins-master",
+            "name": "gitops-ci-cd-devops"
+    }
+    },
+
+
+"jenkins-runner.hostConfigs": {
+    "jenkins-master": {
+        "url": "http://localhost:8090",
+        "user": "hazem",
+        "password": "hazem",
+        "useCrumbIssuer": true,
+        "rejectUnauthorizedCert": false
+    },
+}
+}
+}
