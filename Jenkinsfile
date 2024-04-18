@@ -26,8 +26,8 @@ pipeline{
 
             steps{
                 script{
-                    git credentialsId: 'github',
-                    url: 'https://github.com/vikash-kumar01/gitops_argocd_project.git',
+                    git credentialsId: 'hazem-soussi',
+                    url: 'https://github.com/hazem-soussi/gitops-ci-cd-devops',
                     branch: 'main'
                 }
             }
